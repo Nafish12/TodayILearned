@@ -28,7 +28,7 @@
           <h1>Today I Learned!</h1>
         </div>
 
-        <button>Share a fact</button>
+        <button class="btn btn-large">Share a fact</button>
       </header>
 
       <form class="fact-form">
@@ -46,21 +46,79 @@
           <option value="history">History</option>
           <option value="news">News</option>
         </select>
-        <button>Post</button>
+        <button class="btn btn-large">Post</button>
       </form>
 
       <main class="main">
         <aside>
           <ul>
-            <li><button>All</button></li>
-            <li><button>Technology</button></li>
-            <li><button>Science</button></li>
-            <li><button>Finance</button></li>
-            <li><button>Society</button></li>
-            <li><button>Entertainment</button></li>
-            <li><button>Health</button></li>
-            <li><button>History</button></li>
-            <li><button>News</button></li>
+            <li class="category">
+              <button class="btn btn-all-categories">All</button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #ef4444"
+              >
+                Finance
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #eab308"
+              >
+                Society
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #db2777"
+              >
+                Entertainment
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #14b8a6"
+              >
+                Health
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #f97316"
+              >
+                History
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #8b5cf6"
+              >
+                News
+              </button>
+            </li>
           </ul>
         </aside>
 
@@ -69,7 +127,10 @@
             <li class="fact">
               <p>
                 React is being developed by Meta (formerly facebook)
-                <a href="https://opensource.fb.com/" target="_blank"
+                <a
+                  class="source"
+                  href="https://opensource.fb.com/"
+                  target="_blank"
                   >(Source)</a
                 >
               </p>
@@ -88,6 +149,7 @@
                 their fathers spent with them. In 1982, 43% of fathers had never
                 changed a diaper. Today, that number is down to 3%
                 <a
+                  class="source"
                   href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
                   target="_blank"
                 >
